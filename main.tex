@@ -1,0 +1,347 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[
+    top=3 cm,
+    left=3cm,
+    bottom=2cm,
+    right=2cm
+]{geometry}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazilian]{babel}
+\usepackage{lipsum}
+\usepackage{setspace}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{float}
+\onehalfspacing
+%\singlespacing
+%\doublespacing
+
+
+
+\setlength{\parindent}{1.25cm}
+
+
+
+\title{Curso Final\LaTeX}
+\author{GUILHERME CARDOSO\thanks{Universidade do Estado de Santa Catarina} }
+\date{\today}
+
+
+\begin{document}
+\maketitle
+\begin{abstract}
+    
+\end{abstract}
+\newpage
+\section{Introdução}
+Este documento destaca as atividades desenvolvidas durante o curso de LaTeX ministrada pelo professor Lucas Alexandre Zick, onde no decorrer das 12 aulas se teve o foco para o entendimento da ferramenta e sua familiarização para com um nivel avançado e preparação para o mundo academico e seus desafios como um todo.
+
+A construção se deve a intuito de tornar pratico os metodos expostos trazendo assim muito mais familiaridade com os comandoss basicos, partindo desde a criação do preambulo até quais tipos de pacotes se deve impotar, dependendo da finalidade e para qual tipo de documento a utilização do LaTex.
+
+\section{Fundamentação Teórica}
+
+
+\textsf{\huge TFG}
+TFG
+\texttt{TFG}
+\textsc{\tiny TFG}
+{\scriptsize TFG}
+
+\begin{center}
+    asssssssssssssssssssssssssssssssssssssssdasddddddddd
+\end{center}
+
+\begin{flushleft}
+aasdddddddddddddddddasdddasdadadadadadadadadada
+\end{flushleft}
+
+\begin{flushright}
+    asdaaasdasdasdasdadadaddasasasasa
+\end{flushright}
+
+
+
+Texto1.
+\vspace{2cm}
+Texto2
+Salve rapziada\footnote{Não salvo maix}bom dia\footnote{boa noite}
+
+
+Assinatura: \hspace{9cm} Data:
+
+
+
+
+
+
+
+
+\subsection{}
+
+\subsection{Latex}
+
+
+Em meados do anos 70, se teve um aumento gradativo da computação onde consequentemente as digitalizações de artigos e livros cientificos, e o resultado foi uma qualidade não agradavel para fórmulas matemáticas e o espaçamento dos textos, pu seja, foi apontado que a produação cientifica exige um rigor que os editores de texto da época não se adequavam.
+
+
+Se deve apontar dois nomes para a criação do latex para dois individeios, o primeiro deles sendo o professor Donald Knuth (Universidade de Stanford), que em 1978, se viu frustado com impressões de um de seus livros, mais especificamente o The Art of Computer Programming, e assim nasceu o TeX, um sistema que busca focar em perfeição matemática e tipográfica, onde o objetivo descrito pelo proprio Donald Knuth é: "O TeX foi projetado com dois objetivos principais em mente: permitir que qualquer pessoa produza livros de alta qualidade com esforço mínimo, e fornecer um sistema que daria
+exatamente os mesmos resultados em todos os computadores"\cite{}
+
+O segundo nome a ser destacado apareceu em 1985, indetificando o potencial do TeX original, levando em conta que é considerado um dos sofwares mais estáveis ja desenvolvidos da historias, o cientista Leslie Lamport constriu uma "camada" por cima do TeX, trazendo assim comandos amigaveis e um grau de dificuldade aceitavel para usuários comuns e assim nascia o LaTeX(Lamport TeX)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{A plataforma Overleaf}
+
+Um dos grandes motivos para a resistência ao uso do LaTeX é a necessidade de diversas instalações e distribuições locais (como \textit{TeX Live} ou \textit{MiKTeX}), que costumam exigir de 4GB a 6GB de armazenamento. Além disso, há a complexidade de configurar editores locais (como o \textit{TeXmaker} ou o \textit{VS Code}), dependendo do nível de experiência do usuário. 
+
+A plataforma \textit{Overleaf} destaca-se por ser uma aplicação totalmente baseada na \textit{web}. Desse modo, o usuário necessita apenas de uma conexão com a internet e de um navegador moderno para criar seus documentos. Por ter seu enfoque no processamento e no armazenamento em nuvem, a ferramenta garante fácil acesso e praticidade para múltiplos dispositivos de diferentes sistemas operacionais.
+
+Além da portabilidade, o \textit{Overleaf}. A plataforma, permite que múltiplos autores trabalhem no mesmo arquivo simultaneamente em tempo real, facilitando o processo de revisão entre alunos e orientadores. Por fim, a plataforma disponibiliza uma vasta biblioteca de modelos (\textit{templates}) de periódicos científicos e universidades, reduzindo drasticamente a curva de aprendizado inicial e o tempo gasto com a configuração do preâmbulo do documento.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Leitura}
+
+Se deve destacar as oportunidades que o micro-gerenciamento textual é permitido no LaTex, onde é possivel, destacar palavras, configurar os recuos de paragrafos, alinhar textos, adicionar notas de rodapé e criar listas(tópicos), trazendo asim possibilidades para o nosso controle no quesito de leitura.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Metodologia Prática}
+\subsection{Aula01}
+Foi apresentado uma introdução historica sobre a criação, utilização e o proposito inicial do \textbf{TEX} sendo o cerne do problema o fator da falta de praticidade para artigos impressos em papel, vale destacar que a sua criação foi concebida com quase 100\% livre de problemas ou bugs. Devido sua complexidade, anos depois se teve a sua adaptação para \textbf{LaTEX}, focado na sua adptação para uma utilização mais amigavel.
+
+
+A utilização do \textbf{LaTEX} se destaca pela facil criação de padronizações e sua praticidade, quando comparada a ferramentas como word que são catalogadas como \textit{What You See What You Get}(WYSWYG), ou seja são visuais e se tem um cuidado maior no ambito da pesquisa principalmente pelo fator de diferentes versões que podem trazer problemas e dores de cabeça.
+
+
+Partindo para ferramentas cabe destacar o OverLeaf, com sua praticidade no quesito de não ser necessaria uma instalação em si(zero setup), ou seja, basta criar uma conta e usar a ferramenta on-line pelo navegador, trazendo com isso uma variedade de acesso seja com celular ou computador, e sua capacidade de compartilhar o acesso com diferentes usuários.
+
+
+
+
+\subsection{Aula02}
+
+Se teve uma breve revisão da aula anterior com um enfoque para o \textbf{Preâmbulo} e o Corpo Textual, apartir disso se teve como objetivo o Chassi do documento ou seja o esqueleto e uma base para a escrita de um artigo ou TCC, tendo assim uma base inicial para as importações iniciais e os fundamentos para o Preambulo.
+
+
+O destaque inicial se teve com os comandos inciais para o inicio do Preambulo e os comandos essenciais e quase que obrigatorios, destaca-se para as classses dos documentos sendo os possiveis Article, report e book, onde cada um tem suas vantagens e especifidades dependendo do objetivo final.
+
+
+Um levantamento para destacar algumas opções de paramentros modificadores dependendo da finalidade e antes do nome da classe:
+\begin{itemize}
+    \item \textbackslash documentclass [12pt , a4paper , twocolumn ]\{ article \}
+    \item \textbackslash documentclass [10pt , letterpaper ]\{ report \}
+    \item  \textbackslash documentclass [11pt , draft ]\{ article \}
+
+\end{itemize}
+
+Cabe destacar a praticidade em ajsutar as margens usando o pacote \textit{gemetry} sendo destacado como o padrão absoluto para essa finalidade,se teve atenção para a existencia do Pacote \textit{Lipsum} para testes de design antes da escrita da documentação real,  foi apontado os pacotes para documentos em português:
+
+\begin{itemize}
+    \item \textbackslash usepackage [ brazil ]\{ babel \}
+    \item \textbackslash usepackage [ utf 8]\{ inputenc \}
+    \item  \textbackslash usepackage [T 1]\{ fontenc \}
+
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Aula03}
+Se teve destaque para as diferentes formas dos comando para conceitos pontuais para a escrita de um documento, levantando o pontos para a utilziação e maniupalção de como destacar palavras com a finalidade desejada:
+
+\begin{itemize}
+    \item \textbackslash textbf\{Negrito\}
+    \item \textbackslash textit\{italico\}
+    \item \textbackslash underline\{Sublinhado\}
+    \item \textbackslash textsc\{Small Caps\}
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Aula04}
+\includegraphics[width=10cm, height= -10cm]{}
+
+\begin{figure}
+    \centering
+    \includegraphics[width
+    =0.5\linewidth]{}
+    \caption{}
+    \label{fig:gauches}
+\end{figure}
+
+
+\begin{tabular} {l|c|r}
+    \hline
+    \hline
+    componente && salve && teste \\
+    \hline
+    basdadsasdasdasd  && salve && test \\
+    \hline
+    componente && salve && test \\
+    \hline
+    \hline
+\end{tabular}
+
+
+
+
+
+\subsection{Aula05}
+
+Editores comuns(Word) acacabam sofrendo de um problema cronico perante a necessidade de inserção e imagens, onde o tamanho é o principal agravante, gerando catalaizadores para a imagem não caber no espaço e pular para página seguinte, e trazendo assim um buraco enorme onde a imagem deveria estar porem não coube, e existe um ultimo empencilho que se adicionar uma imgaem em algum paragrafo antes, todas as figuras correm o risco de sair de estarem seriamente comprometidas tanto em ordem quanto visualmente.
+
+
+O laTEX destaca uma solução, que é tanto as imagens quanto as tabelas são alocadas em "contêineres flutuantes"(figure e table), ou sejam se uma não cabe em determinada página, o LaTeX vai continuar a "puxar" o texto que vai vir depois, fazendo assim adptação para que a imagem se mantenha estavel sem comprometer com buracos em branco.
+
+
+Essa manipulação se obtem por conta do controle da flutuação os especificadores, onde exite os parametros para serem apontados para o compilador:
+
+
+\begin{itemize}
+    \item h (here): Tenta colocar exatamente onde está no código.
+
+    \item t (top): Coloca no topo da página.
+
+    \item b (bottom): Coloca na base da página
+    \item p (page): Cria uma página exclusiva para figuras/tabelas
+    \item ! (override): Força o LaTeX a ignorar restrições estéticas internas.
+
+\end{itemize}
+
+
+
+
+
+
+
+\subsection{Aula06}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Aula07}
+
+\includegraphics[width=-5cm]{imagens/images.jpg}
+
+\section{Considerações Finais}
+
+
+\end{document}
